@@ -6,6 +6,8 @@ PROJECT_ID = "zicong-gke-multi-cloud-dev-2"
 vertexai.init(project=PROJECT_ID, location="us-central1")
 
 model = GenerativeModel("gemini-1.5-flash-002")
+# model = GenerativeModel("publishers/google/models/gemma2")
+
 
 chat_session = model.start_chat()
 
